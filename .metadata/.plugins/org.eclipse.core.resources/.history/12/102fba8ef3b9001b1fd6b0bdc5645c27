@@ -1,0 +1,24 @@
+package com.aforo255.test.config.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.aforo255.test.domain.Operation;
+import com.aforo255.test.producer.PayEventProducer;
+import com.aforo255.test.service.IOperationService;
+import com.fasterxml.jackson.core.JsonProcessingException;
+
+import java.util.Map;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class OperationController {
+
+}

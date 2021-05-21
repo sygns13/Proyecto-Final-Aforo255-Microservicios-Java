@@ -1,0 +1,5 @@
+package com.aforo255.test.dao;
+
+public interface IOperationDAO CrudRepository<Transaction, Integer> {
+
+}

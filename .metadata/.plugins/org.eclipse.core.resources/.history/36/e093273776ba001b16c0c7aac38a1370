@@ -1,0 +1,4 @@
+FROM openjdk:13
+EXPOSE 8006
+ADD ./target/app-pay0.0.1.jar    app-pay.jar
+ENTRYPOINT ["java","-jar","/app-pay.jar"]

@@ -1,0 +1,5 @@
+package com.aforo255.test.entity;
+
+public class invoice {
+
+}

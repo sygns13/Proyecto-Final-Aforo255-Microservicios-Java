@@ -1,0 +1,5 @@
+package com.aforo255.test.producer;
+
+public class PayEventProducer {
+
+}

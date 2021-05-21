@@ -1,0 +1,29 @@
+package com.aforo255.test.entity;
+
+import java.io.Serializable;
+
+
+public class Operation implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
+	private Integer id_operation; 
+	private double amount ;
+	private Integer id_invoice; 
+	private String date;
+	
+	public Operation() {
+	}
+
+	public Operation(Integer id_operation, double amount, Integer id_invoice, String date) {
+		super();
+		this.id_operation = id_operation;
+		this.amount = amount;
+		this.id_invoice = id_invoice;
+		this.date = date;
+	} 
+	
+	
+	
+	
+
+}

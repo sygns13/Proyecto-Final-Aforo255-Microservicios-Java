@@ -1,0 +1,21 @@
+package com.aforo255.test.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+public class Operation implements Serializable {
+	
+
+	private Integer id_operation; 
+	private double amount ;
+	private Integer id_invoice; 
+	private String date; 
+
+}

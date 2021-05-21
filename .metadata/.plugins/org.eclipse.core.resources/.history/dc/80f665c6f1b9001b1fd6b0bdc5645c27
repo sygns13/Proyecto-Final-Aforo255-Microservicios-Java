@@ -1,0 +1,5 @@
+package com.aforo255.test.service;
+
+public class OperationServiceImpl implements IOperationService {
+
+}

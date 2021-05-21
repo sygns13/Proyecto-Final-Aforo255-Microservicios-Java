@@ -1,0 +1,7 @@
+package com.aforo255.test.consumer;
+
+@Configuration
+@EnableKafka
+public class ConsumerConfig {
+
+}

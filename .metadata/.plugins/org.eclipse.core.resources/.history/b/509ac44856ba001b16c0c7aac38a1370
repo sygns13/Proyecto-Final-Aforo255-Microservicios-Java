@@ -1,0 +1,19 @@
+package com.aforo255.test.entity;
+
+import java.time.LocalDateTime;
+import org.bson.codecs.pojo.annotations.BsonId;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+@Document(collection = "transaction")
+public class Transaction {
+	
+	@BsonId
+	private String id_transaccion ; 
+	private double amount ;
+	private Integer id_invoice;
+	@JsonFormat(pattern = "dd/MM/yyyy HH:mm:ss")
+	private LocalDateTime datetime;
+
+}

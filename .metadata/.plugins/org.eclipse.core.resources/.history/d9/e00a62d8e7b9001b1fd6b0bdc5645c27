@@ -1,0 +1,5 @@
+package com.aforo255.test.consumer;
+
+public class ConsumerConfig {
+
+}

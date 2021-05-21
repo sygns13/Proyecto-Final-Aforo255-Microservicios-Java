@@ -1,0 +1,16 @@
+package com.aforo255.test.service;
+
+import org.springframework.stereotype.Service;
+import com.aforo255.test.domain.Operation;
+import com.aforo255.test.domain.Operation;
+
+@Service
+public class OperationServiceImpl implements IOperationService {
+
+	@Override
+	public Operation save(Operation operation) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
