@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="operation"/>
+		<item key="selection" value="configserver"/>
 		<list key="findhistory">
+			<item value="invoices"/>
+			<item value="pay"/>
+			<item value="micro-account"/>
+			<item value="ms-account"/>
 			<item value="transaction"/>
 			<item value="deposit"/>
 			<item value="Transaction"/>
@@ -16,6 +20,10 @@
 			<item value="accountService"/>
 		</list>
 		<list key="replacehistory">
+			<item value="configserver"/>
+			<item value="transaction"/>
+			<item value="pay"/>
+			<item value="app-invoices"/>
 			<item value="operation"/>
 			<item value="Operation"/>
 			<item value="invoice"/>
