@@ -3831,3 +3831,84 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 15:33:15.406
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jQEQiCIB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:11.137
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:11.449
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2d154a38[org.springframework.tooling.boot.ls:1.23.0.202010230633(id=673)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:11.449
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:17.760
+!MESSAGE Boot LS startup time from start to initialized: 6143ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:19.176
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UccVcpDDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:19.918
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:19.919
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:19.928
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:19.929
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UccVcpDD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:19.980
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:21.214
+!MESSAGE classpath=143 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:21.325
+!MESSAGE buffering callback sts4.classpath.UccVcpDD app-pay false 143
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:21.997
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:22.040
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:22.045
+!MESSAGE buffering callback sts4.classpath.UccVcpDD app-configserver false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:22.045
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:22.086
+!MESSAGE classpath=144 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:22.094
+!MESSAGE buffering callback sts4.classpath.UccVcpDD app-invoices false 144
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:22.124
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:22.180
+!MESSAGE classpath=124 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:22.186
+!MESSAGE buffering callback sts4.classpath.UccVcpDD app-transaction false 124
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:22.187
+!MESSAGE executing callback sts4.classpath.UccVcpDD 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-21 16:45:23.207
+!MESSAGE executing callback sts4.classpath.UccVcpDD SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-05-21 16:45:52.192
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
