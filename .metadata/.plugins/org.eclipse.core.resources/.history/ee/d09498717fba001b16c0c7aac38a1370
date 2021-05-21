@@ -10,7 +10,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 public class Transaction {
 	
 	@BsonId
-	private String id ; 
+	private String id_transaccion ; 
 	private double amount ;
 	private Integer id_invoice;
 	@JsonFormat(pattern = "dd/MM/yyyy HH:mm:ss")
@@ -19,19 +19,19 @@ public class Transaction {
 	public Transaction() {
 	}
 
-	public Transaction(String id, double amount, Integer id_invoice, LocalDateTime datetime) {
-		this.id = id;
+	public Transaction(String id_transaccion, double amount, Integer id_invoice, LocalDateTime datetime) {
+		this.id_transaccion = id_transaccion;
 		this.amount = amount;
 		this.id_invoice = id_invoice;
 		this.datetime = datetime;
 	}
 
-	public String getId() {
-		return id;
+	public String getId_transaccion() {
+		return id_transaccion;
 	}
 
-	public void setId(String id) {
-		this.id = id;
+	public void setId_transaccion(String id_transaccion) {
+		this.id_transaccion = id_transaccion;
 	}
 
 	public double getAmount() {
